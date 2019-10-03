@@ -165,7 +165,7 @@ namespace ContosoUniversity.Controllers
         {
             try
             {
-                Student studentToDelete = new Student() { Id = id };
+                Student studentToDelete = new Student() { ID = id };
                 studentRepository.DeleteStudent(studentToDelete);
                 studentRepository.Save();
             }
